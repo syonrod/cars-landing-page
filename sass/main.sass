@@ -1,0 +1,204 @@
+
+       
+
+body
+    font-family: arial
+    color: #000000 !important
+    padding: 0.5em 0 0.5em 0
+    background: #FFFFFF !important
+    letter-spacing: -1px
+
+*,
+*:before,
+*:after
+    box-sizing: inherit
+
+li a
+    color: #FFFFFF
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+    margin: 0 0 5px 0
+
+.item
+    display: grid
+    font-size: 35px
+    background-color: #FFFFFF
+.item p
+    margin: 0 0 5px 0
+
+html
+    box-sizing: border-box
+    // font-weight: bold
+    font-size: 2em
+    color: #272727
+    text-shadow: 0 2px 0 rgba(0,0,0,0.05)
+
+div.container
+    padding: 0
+    display: grid
+    grid-template-columns: 1fr
+    grid-template-rows: 1fr fit-content(1fr) repeat(4, 1fr)
+    grid-gap: 5px
+
+.item1
+    padding: 0 0.5em 0 0.5em
+
+.item2
+    padding: 1em
+    text-align: center
+
+.item2 .p_1
+    font-size: 0.6em
+
+.item2 .p_2, .p_3
+    font-size: 1em
+
+.item3 img, .item5 img
+    width: 100%
+
+.item4
+    place-items: center center
+    padding-top: 0.5em
+    padding-bottom: 1em
+    text-align: center
+
+.item4 h3
+    font-size: 0.7em
+
+.item4 .p_4
+    text-align: left
+    width: 300px
+    margin: 0 20px 0 20px
+    padding: 0.5em
+    font-size: 0.6em
+
+.item4 button.learn-more, button.build-price
+    border: none
+    background-color: #000000
+    color: #FFFFFF
+    padding: 0.5em
+    font-size: 0.6em
+    margin-top: 1em
+    width: 300px
+
+.item6
+    place-items: center center
+    padding-top: 0.5em
+    padding-bottom: 1em
+    text-align: center
+
+.item6 h3
+    font-size: 0.7em
+
+.item6 .p_5
+    text-align: left
+    width: 300px
+    margin: 0 20px 0 20px
+    padding: 0.5em
+    font-size: 0.6em
+
+.item6 button.learn-more, button.build-price
+    border: none
+    background-color: #000000
+    color: #FFFFFF
+    padding: 0.5em
+    font-size: 0.6em
+    margin-top: 1em
+    width: 300px
+
+
+
+
+
+
+// :::::::::::::::::::::::::::::::::::::::::::
+// =================laptops==================
+// :::::::::::::::::::::::::::::::::::::::::::
+
+@media (min-width: 1024px) 
+
+    div.container
+        grid-template-columns: 1fr 1fr
+        grid-template-rows: fit-content(1fr)
+
+    .item1
+        grid-column: span 2
+        overflow: hidden
+        height: 97vh 
+        place-items: center center
+
+    .item1 img
+        width: 100%
+        height: 97vh
+
+    .item2
+        grid-column: span 2
+
+    .item3
+        grid-column: 2 / 3
+
+    .item4
+        grid-column: 1 / 2
+        grid-row: 3 / 4
+        h3
+            text-align: left
+            min-width: 600px
+            justify-self: end
+            margin-right: 1em
+        p.p_4
+            min-width: 600px
+            padding: 0
+            margin-left: 0
+            justify-self: end
+            margin-right: 1em
+        div.btns
+            align-self: start
+            height: 150px
+            padding-left: 0.4em
+            text-align: left
+            width: 300px
+            justify-self: start
+            margin-right: 1em
+            margin-left: 4.5em
+
+            button
+                width: 200px
+
+    .item6
+
+        h3
+            margin-left: 0.6em
+            text-align: left
+            min-width: 600px
+            justify-self: start
+            margin-right: 1em
+        p.p_5
+            min-width: 600px
+            padding: 0
+            margin-left: 1em
+            justify-self: start
+            margin-right: 1em
+        div.btns
+            align-self: start
+            height: 150px
+            text-align: left
+            width: 300px
+            justify-self: start
+            margin-right: 1em
+            margin-left: 0.6em
+
+            button
+                width: 200px
+
+
+
+    
+
+
+   
+
