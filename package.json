@@ -1,0 +1,22 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "A simple Landing page",
+  "main": "\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syonrod/new-car-landing-page.git"
+  },
+  "author": "Rodolfo Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syonrod/new-car-landing-page/issues"
+  },
+  "homepage": "https://github.com/syonrod/new-car-landing-page#readme"
+}
